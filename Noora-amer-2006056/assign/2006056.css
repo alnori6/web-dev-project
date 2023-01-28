@@ -1,0 +1,561 @@
+
+/* @media handheld and (max-width: 480px), 
+screen and (max-device-width: 480px), 
+screen and (max-width: 480px) { */
+ @import url( "https://fonts.googleapis.com/css2?family-Poppins:wght@200:300;400;500;600&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:"Poppins" sans-serlif;
+}
+
+section {
+    padding-top: 5%;
+    padding-left: 3%;
+    padding-right: 3%;
+
+    
+}
+
+body{
+    background-color: rgb(237, 208, 201); 
+    font-family: Century Gothic;
+    
+}
+
+.sec1{
+    padding-bottom: 15%;
+    background-color: #84768D;
+}
+
+.sec2{
+    padding-bottom: 8%;
+    background-color: #404461;
+}
+.sec3{
+    padding-bottom: 16%;
+    background-color: #84768D;
+    
+}
+.sec4{
+    background-image: url("footer.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    
+    padding-bottom: 8%;
+    
+}
+
+
+/* the contact info part */
+.box .content{
+    margin: 4% 0 0 0;
+}
+.center .content .social{
+    margin: 4% 0 0 0;
+}
+.center .content .social a{
+    padding: 4%;
+    color: #793f42;
+    text-decoration: none;
+    
+}
+.center .content .social a:hover{
+    color: #9d5f62;
+  
+}
+
+
+.center .content .social a span{
+    padding: 1%;
+    height: 60px;
+    width: 60px;
+    background: #E1CFCF;
+    line-height: 40px;
+    text-align: center;
+    font-size: 1.9em;
+    border-radius: 2em;
+    transition: 0.3s;
+}
+
+.center .content .social a span:hover {
+    background-color: #eee0e0;
+}
+
+
+.center .box{
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+} 
+
+.center h2{
+    color: #937893 ;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.center p{
+    text-align: justify;
+    color: #29628e;
+    font-weight: 550;
+    font-size: 1.2rem;
+    text-shadow: -0.1vw 0.1vw 0.1vw #E1CFCF    ;
+    font-family: Century Gothic;
+    word-spacing: 2%;
+    padding-right: 20%;
+}
+
+
+/* the nav bar */
+.menu{
+    position: fixed;
+    transition: top 0.3s;
+    top: 0;
+    z-index: 1030;
+    width: 100%;
+    background-color: #84768D; 
+    
+}
+
+.menu ul{
+    justify-content: center;
+}
+
+.menu li:hover{
+    /* background-color: #ffceaf; */
+    background-color: #e3b4aa;
+}
+
+.menu li{
+    margin-bottom: 0.3em;
+    margin-right: 0.9em;
+    border-radius: 1.3vw;
+    padding: 0.4em;
+    transition: 0.3s;
+}
+
+.menu a{
+    color: rgb(255, 255, 255); 
+    font-size: 1.1em;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+}
+
+.menu a:hover{
+    color: #404461; 
+    
+}
+
+
+/* all parts of the header */
+header{
+    padding-top: 10%;
+    padding-bottom: 16%;
+
+    background-image: url("headpic1.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+.pic{
+    position: absolute;
+    margin-left: 10%;
+    margin-top: 11%;
+    height: 200px;
+    width: 200px;
+    border-radius: 6em;
+    border: 6px #937893;
+    border-style: outset;
+}
+
+.deco{
+    padding-bottom: 10%;
+    padding-top: 12%;
+    
+    
+}
+
+.deco h1{
+    font-size: 4em;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: 0.2em;
+    text-shadow: -0.4vw 0.1vw 0.1vw #ffd5d5;
+    color: transparent;
+
+    -webkit-text-stroke: 1px white;
+    background: url(texture.png);
+    -webkit-background-clip: text;
+    background-position: 0 0;
+    animation: back 20s linear infinite;
+}
+@keyframes back {
+    100%{
+        background-position: 800px 0;
+    }
+}
+
+.deco p{
+    font-family: Gothic Light;
+    font-size: 3vw;
+    color: white;
+    text-shadow: -0.4vw 0.2vw 0.1vw #2f3247;
+    text-align: center;
+}
+
+
+/* this is the headings */
+.Infrow, .conrow,  .edurow, .prorow{
+    padding: 0.1ch;
+    letter-spacing: 0.3vw;
+    font-size: 3vw;
+
+    color: aliceblue;
+
+    text-align: center;
+    
+
+    margin-left: auto;
+    margin-right: auto;
+
+    margin-bottom: 8%;
+
+    width: 8em;
+
+    font-family: "Sofia", sans-serif;
+    background-color: #404461;
+    border-radius: 1em;
+} 
+.edurow, .conrow{
+    background-color: #84768D;
+}
+
+
+.container1{
+    width: auto;
+    
+}
+.table{
+    
+    line-height: 3em;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.table th{
+    font-size: 3ch;
+    width: 55%;
+}
+.table td{
+    font-size: 3ch;
+}
+
+
+
+.container2{
+    /* float: left; */
+    align-content: center;
+}
+.table2{
+    color: #DC93A4;
+    line-height: 3em;
+    margin-left: auto;
+    margin-right: auto;
+}
+.table2 caption{
+    font-size: 3vw;
+    font-family: Impact;
+    color: transparent;
+
+    -webkit-text-stroke: 2px #3f6679;
+    /* color:#EAA9AD; */
+    text-shadow: -0.1vw 0.1vw 0.1vw#899BA9;
+}
+.table2 th{
+    font-size: 3ch;
+    width: 40%;
+    
+}
+.table2 td{
+    font-size: 3ch;
+    align-content: center;
+}
+
+
+
+
+
+.table3{
+    margin-top: 8%;
+    color: #DC93A4;
+    line-height: 3em;
+    margin-left: auto;
+    margin-right: auto;
+}
+.table3 caption{
+    font-size: 3vw;
+    font-family: Impact;
+    color: transparent;
+
+    /* color:#EAA9AD; */
+    -webkit-text-stroke: 2px #3f6679;
+    text-shadow: -0.1vw 0.1vw 0.1vw  #899BA9;
+}
+.table3 th{
+    font-size: 3ch;
+    width: 61%;
+}
+.table3 td{
+    
+    font-size: 3ch;
+}
+
+
+.sec3 dl{
+    
+    /* padding-left: 30%; */
+    
+    margin: auto;
+    justify-items: center;
+    font-size: 25px;
+    font-family: Lucida Bright;
+    line-height: 220%;
+    
+}
+
+.proitems{
+    column-count: 2;
+    
+    -moz-column-count: 0;
+    padding-left: 10%;
+}
+
+.sec3 dd{
+    line-height: 100%;
+    
+}
+
+.sec3 dd a{
+    
+    align-items: center;
+    padding-left: 3%;
+
+    text-decoration: none;
+    font-size: 19px;
+    font-family: Lucida Console;
+    color: white;
+    
+}
+.sec3 dd a:hover{
+    font-weight: 800;
+    color: #EAA9AD;
+}
+
+
+
+/* adjusting to phone and smaller media types  */
+
+@media only screen and (max-width: 576px) {
+    
+    .menu{
+        padding-bottom: 2%;
+        
+    }
+
+    .menu ul{
+        justify-content: center;
+    }
+
+    .menu li{
+        border-radius: 1.3vw;
+        margin: 0;
+        padding: 0.5px;
+    }
+
+    .menu a{
+        font-size: 12px;
+        font-weight: 700;
+        letter-spacing: 1px;
+        margin: 0;
+    }
+
+
+    header{
+        padding-top: 20%;
+        padding-bottom: 116%;
+    }
+
+    .pic{
+        height: 100px;
+        width: 100px;
+        margin-left: 4%;
+    }
+
+    .deco h1{
+        padding-bottom: 10%;
+        margin-left: 35%;
+        padding-top: 4%;
+        text-align: left;
+        font-size: 3em;
+        font-weight: 700;
+        letter-spacing: 0.2em;
+        text-shadow: -0.9vw 0.1vw 0.1vw #ffd5d5;
+    }
+
+    .deco p{
+        
+        margin-top: 1%;
+        font-size: 7vw;
+        text-shadow: -0.5vw 0.2vw 0.1vw #2f3247;
+    }
+
+    .Infrow, .conrow,  .edurow, .prorow{
+        margin-top: 20%;
+        margin-bottom: 30%;
+        font-size: 2ch;
+    }
+
+
+    .sec1{
+        padding-bottom: 54%;
+    }
+    .table th{
+        font-size: 2ch;
+        width: 47%;
+    }
+    .table td{
+        font-size: 2ch;
+    }
+
+
+    .sec2{
+        padding-bottom: 35%;
+    }
+    
+    .table2 caption{
+        font-size: 7vw;
+        text-shadow: -0.3vw 0.1vw 0.1vw#899BA9;
+    }
+    .table2 th{
+        font-size: 2ch;  
+    }
+    .table2 td{
+        font-size: 2ch;
+    }
+
+
+    .table3 caption{
+        font-size: 7vw;
+        text-shadow: -0.3vw 0.1vw 0.1vw#899BA9;
+    }
+    .table3 th{
+        font-size: 2ch;  
+    }
+    .table3 td{
+        font-size: 2ch;
+    }
+
+
+    .proitems{
+        column-count: 1;
+        padding-left: 20%;
+    }
+    .sec3 dl{
+        font-size: 15px;
+    }
+    .sec3 dd{
+        line-height: 140%;
+    }
+    .sec3 dd a{
+        font-size: 12px;
+    }
+
+
+    .center .content .social a{
+        padding: 1%;
+    }
+    .center .content .social a span{
+        padding: 1%;
+        height: 30px;
+        width: 30px;
+        line-height: 20px;
+        font-size: 1em;
+    }
+    .center h2{
+        font-weight: 700;
+    }
+    .center p{
+        font-weight: bold;
+        font-size: 1rem;
+    }
+    
+
+}
+
+/*  992px  */
+/* @media only screen and (min-width: 992px){
+}  */
+
+@media only screen and (max-width: 768px) and (min-width: 576px){
+
+    header{
+        padding-top: 10%;
+        padding-bottom: 76%;
+
+    }
+    .deco h1{
+        padding-left: 50%;
+        font-size: 4em;
+        text-align: left;
+        text-shadow: -0.4vw 0.1vw 0.1vw #ffd5d5;
+    }
+    .deco p{
+        padding-left: 35%;
+        font-size: 3vw;
+        text-shadow: -0.4vw 0.2vw 0.1vw #2f3247;
+    }
+    
+    .Infrow, .conrow,  .edurow, .prorow{
+        margin-top: 18%;
+        margin-bottom: 20%;
+        font-size: 2ch;
+    }
+
+
+    .sec1{
+        padding-bottom: 36%;
+    }
+    .sec2{
+        padding-bottom: 26%;
+    }
+
+    .proitems{
+        column-count: 1;
+        padding-left: 25%;
+    }
+    .sec3 dl{
+        font-size: 20px;
+    }
+    .sec3 dd{
+        line-height: 140%;
+    }
+    .sec3 dd a{
+        font-size: 19px;
+    }
+
+    
+    .center h2{
+        font-size: 3em;
+        font-weight: 700;
+        text-transform: capitalize;
+    }
+    .center p{
+        font-weight: bold;
+        font-size: 1.5rem;
+    }
+
+}
